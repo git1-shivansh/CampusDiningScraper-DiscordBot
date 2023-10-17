@@ -39,10 +39,11 @@ Bot Initialization: The bot token is retrieved from environment variables and th
 2. Install the required packages:
    ```bash
    pip install -r requirements.txt
+3. Update the.env file with your Discord BOT key
 ## Usage
 
 1. Run the main script:
    ```bash
    python main.py
- 
+
 
