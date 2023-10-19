@@ -23,7 +23,7 @@ on_command_error: Logs any command errors.
 menu: A command that triggers the scrape_menu function and sends the scraped data to the Discord channel in a tabulated format.
 Data Formatting: The format_as_table function formats the scraped data as a table to present it in a readable manner on Discord.
 
-Bot Initialization: The bot token is retrieved from environment variables and the bot is set to run.
+Bot Initialization: The bot token is retrieved from environment variables and the bot is set to run
 
 ## Prerequisites
 
