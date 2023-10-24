@@ -13,7 +13,7 @@ intents.messages = True
 intents.guilds = True
 intents.message_content = True  # Ensure this intent is enabled in your Discord Developer Portal as well.
 
-def scrape_menu(meal, date):
+def scrape_menu(meal, selectDate):
 
     '''
     options = webdriver.ChromeOptions()
@@ -46,7 +46,7 @@ def scrape_menu(meal, date):
 
     desired_date_element = driver.find_element(By.XPATH, '//button[@aria-label="Choose a Date to Show Menu"]')
     desired_date_element.click()
-    desired_date_element = driver.find_element(By.XPATH, f'//div[@aria-label="Choose {date}"]')
+    desired_date_element = driver.find_element(By.XPATH, f'//div[@aria-label="Choose {selectDate}"]')
     desired_date_element.click()
 
 
