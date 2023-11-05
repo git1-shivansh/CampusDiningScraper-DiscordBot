@@ -2,6 +2,9 @@
 Introduction
 MealScrapeBot is a Python-based Discord bot designed to scrape menu items from the ASU Barrett Dining Center's website. Users can interact with the bot to request the menu for specific meals on specific dates, and the bot responds with the details in a tabulated format.
 
+<img width="776" alt="Screenshot 2023-11-04 at 5 14 44 PM" src="https://github.com/git1-shivansh/CampusDiningScraper-DiscordBot/assets/120882806/96727a60-0071-496f-abf1-9f1ac5538c96">
+
+
 ## Dependencies:
 1. discord.py: The primary library used to interface with the Discord API.
 2. python-dotenv: A module to manage environment variables, particularly useful for keeping the bot token secure.
